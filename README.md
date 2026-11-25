@@ -1,18 +1,18 @@
 # Teleprompter
 
-Minimaler Teleprompter für macOS. Schwebt direkt unter der Kamera, auch über Photo Booth.
+Minimal teleprompter for macOS. Floats right below the camera, on top of other apps.
 
-## Installieren
+## Install
 
 ```bash
 ./build.sh
 ```
 
-Baut `Teleprompter.app` und legt sie in `~/Applications`.
+Builds `Teleprompter.app` and copies it to `~/Applications`.
 
-## Bedienung
+## Usage
 
-- Text mit ⌘V einfügen, mit **Esc** in den Lesemodus wechseln
-- **Leertaste / Klick**: Start/Pause
-- **↑ / ↓**: Tempo · **+ / −**: Schriftgröße · **R**: zurück an den Anfang
-- **Ziehen**: Fenster verschieben · **⌘Q**: beenden
+- Paste your text with ⌘V, press **Esc** to switch to reading mode
+- **Space / click**: play/pause
+- **↑ / ↓**: speed · **+ / −**: font size · **R**: back to top
+- **Drag**: move window · **⌘Q**: quit
